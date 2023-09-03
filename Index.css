@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Carrousel{
+    width: 100%;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.ItemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.ItemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.ItemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.ItemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#ItemCarrousel-1{
+    background-color: rgb(226, 50, 50);
+}
+
+#ItemCarrousel-2{
+    background-color: rgb(50, 200, 226);
+}
+
+#ItemCarrousel-3{
+    background-color: rgb(200, 226, 50);
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.ItemCarrouselArrows > a > i{
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
